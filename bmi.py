@@ -18,4 +18,4 @@ def get_cond(bmi):
 weight = input('weight(kg): ')
 height = input('height(m): ')
 
-get_bmi(weight,height)
+print(get_bmi(weight,height))
