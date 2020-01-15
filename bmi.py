@@ -15,7 +15,8 @@ def get_cond(bmi):
     elif bmi>=40:
         return 'class III obesity'
     
-weight = input('weight(kg): ')
-height = input('height(m): ')
+weight = float(input('weight(kg): '))
+height = float(input('height(m): '))
 
-print(get_bmi(weight,height))
+print('bmi: ' + str(get_bmi(height,weight)))
+print('condition: ' + str(get_cond(get_bmi(height,weight))))
