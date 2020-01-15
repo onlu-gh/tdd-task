@@ -10,6 +10,8 @@ def get_cond(bmi):
         return 'overweight'
     elif bmi >= 30 and bmi < 35:
         return 'class I obesity'
+    elif bmi >= 35 and bmi < 40:
+        return 'class II obesity'
     
 weight = input('weight(kg): ')
 height = input('height(m): ')
